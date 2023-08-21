@@ -1,0 +1,93 @@
+*{
+margin:0;
+padding:0;
+}
+
+
+                                   /* Navbar section */ 
+       /* Dark mode section */
+.dark-body{
+background-color:black;
+color:white;
+	   }
+.main-navbar-dark{
+background-color:black;
+}
+
+          /* end Dark mode section */
+
+
+
+.main-navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background-color:lightblue;
+position:sticky;
+top:0;
+left:0;
+width:100vw;
+}
+.main-navbar-logo{
+padding:.7rem 2rem;
+}
+.main-navbar-logo img{
+height:4rem;
+width:4rem;
+}
+.main-navbar-links{
+
+}
+.main-navbar-logo a{
+text-decoration:none;
+color:black;
+cursor:pointer;
+}
+.main-navbar-links-ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+.main-navbar-links-ul a{
+text-decoration:none;
+color:black;
+cursor:pointer;
+}
+.search-box-text{
+padding:0 2rem 0 0.1rem;
+}
+
+.dark-mode-icon{
+display:flex;
+margin: 0 0 0 12rem;
+}
+.dark-mode-text{
+padding:0 0 0 0.5rem;
+}
+
+
+                   /* Main-section */
+
+.main-section{
+margin:2.5rem 2rem;
+height:auto;
+display:flex;
+flex-wrap:wrap;
+overflow:hidden;
+}
+.main-section-div{
+margin:1rem;
+width:25vw;
+height: max-content;
+text-align:center;
+background-color: none; 
+color:black;
+box-shadow: 2px 2px 2px lightgrey;
+padding:1rem;
+}
+.main-section-div:hover{
+box-shadow: 1px 1px 8px grey;
+}
+.main-section-div h1{
+padding:.8rem 0;
+}
